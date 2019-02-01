@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<cs50.h>
+
+int main()
+{
+    string nombre = get_string("¿Cual es tu nombre?:");
+    int edad = get_int("danos tu edad:");
+    printf("\n hola %s, ", nombre);
+    printf ("\n\n tu edad es: %d años", edad);
+}
